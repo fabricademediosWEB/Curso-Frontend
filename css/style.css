@@ -62,8 +62,7 @@ header .usuario .flechita {
   background: #dd4f24;
   color: #fff;
   display: block;
-margin
-  padding: 3px;
+  padding: 2px;
   position: absolute;
   right: 0;
   top: 15px;
@@ -75,16 +74,21 @@ nav {
   background: #22bce0;
 }
 nav .menu {
+  height: 40px;
+  line-height: 40px;
   margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 nav .menu li {
   display: inline-block;
 }
 nav .menu li a {
   color: #fff;
-  display: inline-block;
-margin
-  padding: 0, 5em;
+  display: block;
+  margin: 0 0.5em;
+  padding: 0 0.2em;
   text-decoration: none;
 }
 .left {
