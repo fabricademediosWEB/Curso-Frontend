@@ -59,8 +59,8 @@ header
 			z-index 2
 
 			img
+				border-radius 50%
 				width 50px
-				border-radius 50%	
 
 		.flechita			
 			background naranja
@@ -77,8 +77,18 @@ header
 
 
 nav
-	background  azul 
+	background  azul
+	border-left 15px solid white
+	position relative 
 	
+	&:before
+			content ""
+			border-bottom 20px solid transparent
+			border-left 7px solid white
+			border-top 20px solid transparent
+			left 0
+			position absolute
+			top 0
 	.menu
 		height 40px
 		line-height 40px
@@ -86,6 +96,7 @@ nav
 		padding 0
 		overflow-x auto
 		white-space nowrap
+
 		li
 			display inline-block
 

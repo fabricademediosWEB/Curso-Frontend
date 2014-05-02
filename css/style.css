@@ -55,8 +55,8 @@ header .usuario .avatar {
   z-index: 2;
 }
 header .usuario .avatar img {
-  width: 50px;
   border-radius: 50%;
+  width: 50px;
 }
 header .usuario .flechita {
   background: #dd4f24;
@@ -72,6 +72,17 @@ header .usuario .flechita {
 }
 nav {
   background: #22bce0;
+  border-left: 15px solid #fff;
+  position: relative;
+}
+nav:before {
+  content: "";
+  border-bottom: 20px solid transparent;
+  border-left: 7px solid #fff;
+  border-top: 20px solid transparent;
+  left: 0;
+  position: absolute;
+  top: 0;
 }
 nav .menu {
   height: 40px;
